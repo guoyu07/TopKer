@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block content %}
+<section id="wrapper">
+<div id="container">
+	{% for item in items %}
+	<div class="grid">
+		<div class="imgholder">
+			<a target="_blank" href="{{ item.detail_url }}">
+				<img rel="lazy" data-original="{{ item.image }}_170x170.jpg" src="/static/images/grey.gif" width="170" height="170"/>
+			</a>
+		</div>
+		<p><a target="_blank" href="{{ item.detail_url }}">{{ item.title }}</a></p>
+	</div>
+	{% endfor %}
+</div>
+</section>
+{% endblock %}
