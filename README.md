@@ -1,3 +1,8 @@
+#setup
+
+*taobao app_key app_secret
+*mkdir cache & complie under root dir
+
 #this project base on
 >1. Slim Framework
 >
@@ -14,3 +19,5 @@ $app->get('/:params', function($functionName) use ($twig) {
 	// todo	
 });
 ```
+
+[www.shibeike.com](http://www.shibeike.com/)
