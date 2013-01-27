@@ -7,3 +7,10 @@
 
 you can read Slim Framework document to change the request params for different
 category or other api. 
+
+##for example
+```php
+$app->get('/:params', function($functionName) use ($twig) {
+	// todo	
+});
+```
