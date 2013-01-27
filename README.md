@@ -1,7 +1,8 @@
 #setup
 
-*taobao app_key app_secret
-*mkdir cache & complie under root dir
+>taobao app_key app_secret
+>
+>mkdir cache & complie under root dir
 
 #this project base on
 >1. Slim Framework
@@ -15,7 +16,7 @@ category or other api.
 
 ##for example
 ```php
-$app->get('/:params', function($functionName) use ($twig) {
+$app->get('/:params', function($params) use ($twig) {
 	// todo	
 });
 ```
